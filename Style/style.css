@@ -1,0 +1,240 @@
+/*CSS Code By Foysal Zihak*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.Container{
+    /* background-color: lightseagreen; */
+}
+.Donate_Title{
+    margin-top: 20px;
+}
+/* .Donate_Desc{
+    width: 90%;
+    margin: 10px auto;
+} */
+/* Header Start */
+.header{
+    
+}
+
+.Banner{
+    background-image: url('../Assets/images/donation0.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_Title{
+    text-align: center;
+    color: white;
+    font-size: 65px;
+}
+.banner_Text{
+    color: white;
+    font-size: 20px;
+}
+.btn_primary{
+    background-color: tomato;
+    border: 0;
+    color: white;
+    padding: 10px 15px;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 20px;
+    border-radius:5px;
+}
+
+/* Header End */
+
+/* Main Start */
+.main{
+    width: 80%;
+    /* background-color: purple; */
+    margin: 0 auto;
+    text-align: center;
+    color: gray;
+}
+
+/* Donate Today Start */
+.Donate_Today{
+    overflow: hidden;
+}
+.Donate_Title{
+    color: black;
+}
+.Donate_Desc{
+    color: gray;
+    width: 700px;
+    margin: 20px auto;
+    font-size: 20px;
+}
+.Number{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.tk{
+
+}
+.active{
+    color: tomato;
+    border: 3px solid tomato;
+    padding: 20px 20px;
+    background-color: #FFEEEE;
+    border-radius: 5px;
+}
+.om{
+    margin-top: 30px;
+}
+hr{
+    width: 600px;
+    margin: 10px auto;
+}
+/* Donate Today End */
+
+/* Donate Plan Start */
+.Donate_Box{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 60px 70px;
+    /* background-color: red; */
+}
+.Box{
+    border: 1px solid slateblue;
+    width: 350px;
+    height: 300px;
+    text-align: start;
+    padding: 20px;
+}
+.box_Image{
+    margin-top: 50px;
+}
+.box_Title{
+    margin: 20px 0;
+}
+.box_Body{
+    tab-size: 22px;
+    line-height: 1.6rem;
+}
+.b1{
+    background-color: #EDF5F6;
+}
+.b2{
+    background-color: #FFEEEE;
+}
+.b3{
+    background-color: #FFF4D6;
+}
+/* Donate Plan End */
+
+/* Description Start */
+.Description{
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: yellow; */
+}
+.First{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+}
+.Second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+}
+.Left{
+   
+}
+.Desc_Title{
+    font-weight: bold;
+    color: black;
+    font-size: 45px;
+}
+.Desc_des{
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+.Right{
+
+}
+.pic{
+    width: 450px;
+    height: 450px;
+}
+/* Description End */
+
+/* MyUpdate Start */
+.MyUpdate{
+    margin-top: 70px;
+}
+.updatetitle{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.anotherbox{
+    margin: 70px auto;
+    width: 80%;
+    height: 300px;
+    background-color: #FFF4D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .TwoFactor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.em{
+    padding: 14px 15px;
+    height: 22px;
+    width: 230px;
+    z-index: 1;
+    border: 0;
+    background-color: #FFFFFF;
+}
+.sb{
+    margin-top: -3px;
+    margin-left: -5px;
+}
+/* MyUpdate End */
+/* Main End */
+
+/* Footer start */
+.footer{
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bh{
+    font-family: 'Dancing Script', cursive;
+    color: tomato;
+    font-weight: bold;
+    font-size: 35px;
+}
+.ig{
+    margin-top: 30px;
+    color: white;
+}
+/* Footer End */
